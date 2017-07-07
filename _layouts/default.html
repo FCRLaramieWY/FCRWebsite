@@ -12,6 +12,8 @@
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
 	{% seo %}
 	{% feed_meta %}
 
@@ -30,9 +32,10 @@
 	<body>
 		<header>
 			<div class="container">
-				<h1 class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="Urban" width="150"></a></h1>
+				<!---->
 				{% include navigation.html %}
 			</div>
+
 		</header>
 		{{ content }}
 
@@ -62,16 +65,15 @@
 
 					<ul class="footer-links">
 						<li>
-							<h2>{{ site.data.company.title }}</h2>
+							<h2>{{ site.data.company.mission_title }}</h2>
 						</li>
 						<li>{{ site.data.company.description }}</li>
-						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="legal-line">
-				<p class="container">
+				<p class="container" align="center">
 					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}
 					&bull;
 					Template by <a href="http://cloudcannon.com/">CloudCannon</a>

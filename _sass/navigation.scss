@@ -31,6 +31,7 @@ nav {
 	text-transform: uppercase;
 	font-size: 0.8em;
 	width: 100%;
+	font-family: 'Indie Flower';
 
 	ul {
 		margin: 0;
@@ -42,7 +43,7 @@ nav {
 	}
 
 	@media #{$mid-point} {
-		text-align: right;
+		text-align: center;
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -59,7 +60,7 @@ nav {
 		color: rgba(255, 255, 255, 0.8);
 		transition: 0.2s ease-in-out;
 		display: none;
-		font-size: 1rem;
+		font-size: 1.5rem;
 
 		@media #{$mid-point} {
 			border-bottom: 2px solid rgba(255, 255, 255, 0);

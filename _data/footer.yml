@@ -10,10 +10,10 @@
       link: /about/
     - name: Contact
       link: /contact/
-- title: Social
+- title: FCR Online
   links:
     - name: Facebook
-      link:
+      link: https://www.facebook.com/FCRLaramieWY
       social_icon: Facebook
       new_window: true
     - name: Twitter

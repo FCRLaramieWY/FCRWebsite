@@ -1,9 +1,16 @@
 links:
-- name: Portfolio
-  link: /portfolio/
-- name: Blog
-  link: /blog/
+- name: Home
+  link: /
 - name: About
   link: /about/
+- name: Blog
+  link: /blog/
 - name: Contact
   link: /contact/
+- name: Donate
+  link: /donate/
+- name: Events
+  link: /events/
+
+
+

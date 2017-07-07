@@ -1,9 +1,9 @@
-title: FCR - Laramie, WY
-url: "https://teal-worm.cloudvent.net"
-baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+title: FCR
+url: "https://friendsofcommunityrec.org"
+baseurl: 
+google_analytics_key: 
+google_maps_javascript_api_key: 
+disqus_shortname: 
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: Jekyll template with example content for a web agency.
